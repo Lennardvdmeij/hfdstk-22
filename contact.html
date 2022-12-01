@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap-CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style type="text/css">
+        .btn {
+            border-radius: 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>lennard</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="overmij.html">overmij</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-sm">
+        <form id="contactgegevens" method="post" action="https://formspree.io/f/mbjbdkvk">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <table>
+                    <tr>
+                        <td><label for="naam">Uw naam:</label></td>
+                        <td><input id="naam" type="text" name="naam"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Uw email:</label></td>
+                        <td><input id="email" type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="text">Bericht:</label></td>
+                        <td><input id="text" type="text" name="text"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <input id="sentbutton" type="submit" value="Verzend">
+        </form>
+    </div>
+
+    <footer>
+        <h5>copyright</h5>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, beatae? Facere unde tempore
+            similique velit doloribus praesentium dicta, magnam repellat, dolore debitis, pariatur ullam voluptatem
+            eaque accusamus quaerat nam maxime.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            beatae? Facere unde tempore
+            similique velit doloribus praesentium dicta, magnam repellat, dolore debitis, pariatur ullam voluptatem
+            eaque accusamus quaerat nam maxime.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            beatae? Facere unde tempore
+            similique velit doloribus praesentium dicta, magnam repellat, dolore debitis, pariatur ullam voluptatem
+            eaque accusamus quaerat nam maxime.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
